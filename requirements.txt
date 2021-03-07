@@ -1,0 +1,17 @@
+click==7.1.2
+fastapi==0.63.0
+h11==0.12.0
+joblib==1.0.1
+numpy==1.20.1
+pandas==1.2.2
+pydantic==1.7.3
+python-dateutil==2.8.1
+python-multipart==0.0.5
+pytz==2021.1
+scikit-learn==0.24.1
+scipy==1.6.0
+six==1.15.0
+sklearn==0.0
+starlette==0.13.6
+threadpoolctl==2.1.0
+uvicorn==0.13.3
