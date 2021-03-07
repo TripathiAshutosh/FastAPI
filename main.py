@@ -27,7 +27,6 @@ async def predict_species(iris: IrisSpecies):
     }
 
 @app.post("/files/")
-#async def create_file(file: bytes = File(...), fileb: UploadFile = File(...), token: str = Form(...)):
 async def create_file(file: bytes = File(...), token: str = Form(...)):
     s=str(file,'utf-8')
     data = StringIO(s)
